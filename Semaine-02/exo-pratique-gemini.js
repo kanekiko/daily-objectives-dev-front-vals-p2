@@ -39,7 +39,20 @@ Calcule et affiche dans la console la somme, la différence, le produit et le qu
 Déclare une variable rayon et assigne-lui une valeur. Calcule et affiche la circonférence d'un cercle en utilisant la formule 2 * PI * rayon (utilise Math.PI pour la valeur de PI).
 Déclare une variable score initialisée à 0. 
 Incrémente-la de 1 en utilisant l'opérateur d'incrémentation. Puis, décrémente-la de 1 en utilisant l'opérateur de décrémentation. 
-Affiche la valeur de score après chaque opération.*/
+Affiche la valeur de score après chaque opération.
+let nombre1 = 9;
+let nombre2 = 4;
+console.log(nombre1 + nombre2, nombre1 - nombre2, nombre1 * nombre2, nombre1 / nombre2);
+
+let rayon = 10;
+console.log(2 * Math.PI * rayon);
+
+let score = 0;
+score++;
+console.log(score);
+score--;
+console.log(score);*/
+
 
 
 /*Exercice 4 : Structures de Contrôle (if / else)
