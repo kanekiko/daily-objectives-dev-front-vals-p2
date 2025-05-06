@@ -60,6 +60,31 @@ console.log(score);*/
 Demande à l'utilisateur d'entrer un nombre à l'aide de prompt.
 Convertis l'entrée de l'utilisateur en un nombre.
 Utilise une instruction if...else pour vérifier si le nombre est positif, négatif ou nul. Affiche le résultat dans la console.*/
+/*// 1. Demande à l'utilisateur d'entrer un nombre à l'aide de prompt.
+let inputNombre = prompt("Veuillez entrer un nombre :");
+
+// Explication :
+// - `prompt("Veuillez entrer un nombre :")` : La fonction `prompt()` affiche une boîte de dialogue demandant à l'utilisateur d'entrer un texte. Le message "Veuillez entrer un nombre :" guide l'utilisateur.
+// - `let inputNombre = ...` : La valeur entrée par l'utilisateur (qui est toujours une chaîne de caractères) est stockée dans la variable `inputNombre`.
+
+// 2. Convertis l'entrée de l'utilisateur en un nombre.
+let nombre = Number(inputNombre);
+
+// Explication :
+// - `Number(inputNombre)` : La fonction `Number()` essaie de convertir la chaîne de caractères stockée dans `inputNombre` en une valeur numérique.
+// - `let nombre = ...` : Le résultat de cette conversion est stocké dans la variable `nombre`. Si l'utilisateur entre quelque chose qui ne peut pas être interprété comme un nombre (par exemple, du texte), la valeur de `nombre` sera `NaN` (Not a Number).
+
+// 3. Utilise une instruction if...else pour vérifier si le nombre est positif, négatif ou nul. Affiche le résultat dans la console.
+if (nombre > 0) {
+  console.log("Le nombre " + nombre + " est positif.");
+} else if (nombre < 0) {
+  console.log("Le nombre " + nombre + " est négatif.");
+} else if (nombre === 0) {
+  console.log("Le nombre est zéro.");
+} else {
+  console.log("L'entrée n'est pas un nombre valide."); // Cas pour NaN ou d'autres entrées non numériques
+}*/
+
 
 
 /*Exercice 5 : Structures de Contrôle (for / while)
