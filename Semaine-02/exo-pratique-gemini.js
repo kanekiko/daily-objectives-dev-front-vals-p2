@@ -19,7 +19,7 @@ let rien = null;*/
 Utilise prompt pour demander à l'utilisateur son prénom et stocke la réponse dans une variable.
 Utilise alert pour afficher un message de bienvenue personnalisé à l'utilisateur en utilisant le prénom qu'il a entré.
 Utilise confirm pour poser une question à l'utilisateur (par exemple : "Aimez-vous JavaScript ?"). 
-Stocke la réponse (true ou false) dans une variable et affiche-la dans la console.*/
+Stocke la réponse (true ou false) dans une variable et affiche-la dans la console.
 let prenom = prompt("Quel est votre prénom?", "reponse");
 
 if (prenom) {
@@ -29,11 +29,7 @@ if (prenom) {
 }
 
 let confirmJs = confirm("Aimez-vous JavaScript?");
-if (confirmJs) {
-  console.log("Bienvenue au club " + prenom);
-} else {
-  console.log("Tu rates quelque chose " + prenom);
-}
+console.log("L'utilisateur aime JavaScript: " + confirmJs);*/
 
 
 /*Exercice 3 : Opérateurs
